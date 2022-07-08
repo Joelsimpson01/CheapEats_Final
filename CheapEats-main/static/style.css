@@ -1,0 +1,657 @@
+#Login_Image {
+    margin: auto;
+    width: 20%;
+    left: 0px;
+    right: 0px;
+    padding: 40px;
+}
+
+#Login_Image img {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+.LoginTitle p {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.TitleTutorial p {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*!*poopy*! ctrl slash*/
+/* ctrl alt l cleansup*/
+/* ctrl alt i for indents*/
+
+#container {
+    display: flex;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+#container div {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#CheckedListBox1 {
+
+    border-width: 1px;
+    border-style: solid;
+    height: 470px;
+    width: 615px;
+    overflow-y: scroll;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+#cb1 {
+
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+
+
+
+ a:link { text-decoration: none; color:none;
+}
+
+
+#ItemButtons{
+  margin-left: 38%;
+
+}
+#ClearButton {
+ text-align: center;
+  font-family: 'Roboto', bold,  sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  background-color: white;
+  margin: 20px;
+  float:left;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#listButton{
+    text-align: center;
+    font-family: 'Roboto', bold,  sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#ClearButton:hover {
+  filter: brightness(80%);
+}
+
+
+#ConfirmButton {
+ text-align: center;
+  font-family: 'Roboto', bold,  sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  background-color: white;
+  margin: 20px;
+  float:left;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 15px;
+
+}
+
+#ConfirmButton:hover {
+  filter: brightness(80%);
+}
+
+#veg1 {
+    background-color: #ebf8e6;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#veg1:hover {
+    filter: brightness(80%);
+}
+
+#meat1{
+    background-color: #ffcccb;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#meat1:hover{
+    filter: brightness(80%);
+}
+
+#meat1:focus{
+    background-color: darkseagreen;
+}
+
+#list1{
+    background-color: #ffcccb;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#list1:hover{
+    filter: brightness(80%);
+}
+
+#list1:focus{
+    background-color: darkseagreen;
+}
+
+#egg1{
+    background-color: #ffffd4;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#egg1:hover{
+    filter: brightness(80%);
+}
+
+#oil1{
+    background-color: #FFD580;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#oil1:hover{
+    filter: brightness(80%);
+}
+
+#sus1{
+    background-color: #ADD8E6;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#sus1:focus{
+    background-color: blueviolet;
+
+}
+
+
+
+
+
+
+#wheat1{
+    background-color: #CBC3E3;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#wheat1:hover{
+    filter: brightness(80%);
+}
+
+#loading {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: auto;
+}
+
+#loading_image img {
+    width: 500px;
+    height: 500px;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*#label {
+    margin: auto;
+    padding: 10px;
+}*/
+
+
+#CheckedListBox2 {
+
+    border-width: 1px;
+    border-style: solid;
+    height: 440px;
+    width: 991px;
+    overflow-y: scroll;
+    padding: 2px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+#rec1 {
+    float: left;
+    margin-left: 0;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec2 {
+    float: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec3 {
+    float: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec4 {
+    float: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec5 {
+    loat: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+
+}
+
+#FoodImage:hover {
+    filter: brightness(80%);
+}
+
+#FoodImage {
+    height: 220px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+.CheckedListBox9 {
+
+    border-width: 1px;
+    border-style: solid;
+    height: 440px;
+    width: 990px;
+    overflow-y: scroll;
+    padding: 2px;
+    background-color: white;
+    margin: auto;
+}
+
+.RecipieImage1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 960px;
+    margin: auto;
+}
+
+.CheckedListBox9 .btn {
+  float:left;
+  position: relative;
+    bottom: 49.5%;
+  left: 36%;
+  background-color: transparent;
+  color: dimgray;
+  font-size: 16px;
+    padding-top:9px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+}
+
+.CheckedListBox9 .btn:hover {
+    color: black;
+}
+
+.disabled_link{
+   float:left;
+  position: relative;
+  bottom: 49.5%;
+  left: 30%;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+      padding-top:8px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+}
+
+#RecipieImage2 {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 960px;
+    margin: auto;
+}
+
+.CheckedListBox10 {
+
+    border-width: 1px;
+    border-style: solid;
+    height: 440px;
+    width: 990px;
+overflow-y: scroll;
+    padding: 2px;
+    background-color: white;
+    margin: auto;
+}
+
+.CheckedListBox10 .btn2 {
+  float:left;
+  position: relative;
+  bottom: 86.9%;
+  left: 16.5%;
+  background-color: transparent;
+  color: dimgray;
+  font-size: 16px;
+      padding-top:9px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+}
+
+.CheckedListBox10 .btn2:hover {
+    color: black;
+}
+
+.disabled_link2{
+     float:left;
+  position: relative;
+  bottom: 86.9%;
+ left: 49%;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+      padding-top:8px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+}
+
+
+.CheckedListBox10 .btn4{
+    float:left;
+  position: relative;
+  bottom: 8%;
+ left: 14%;
+  background-color: darkgrey;
+  color: black;
+  font-size: 16px;
+      padding-top:8px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+}
+
+.CheckedListBox11 {
+    border-width: 1px;
+    border-style: solid;
+    height: 440px;
+    width: 990px;
+overflow-y: scroll;
+    padding: 2px;
+    background-color: white;
+    margin: auto;
+}
+
+#cb2 {
+    float: right;
+}
+
+.buttonItems {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 32%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonRecipies {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 42%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonList {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 52%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonFavourites {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 62%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonTutorial {
+    float: right;
+    display: block;
+    width: 80px;
+
+}
+
+#img_logo {
+}
+
+
+#Tutorial_numbers {
+    margin: auto;
+    width: 70%;
+    left: 0px;
+    right: 0px;
+}
+
+#Tutorial_numbers img {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+
+.Itemgroup{
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    grid-template-rows: 10vw;
+    margin-left: 475px;
+    margin-right: 475px;
+    margin-top: 75px;
+    gap: 65px;
+  align-items: center;
+  justify-items: center;
+}
+
+.meat{
+    width: 250px;
+    height: 250px;
+}
+
+.meat:hover {
+  filter: brightness(80%);
+}
+.dairy{
+    width: 250px;
+    height: 250px;
+}
+
+.dairy:hover {
+  filter: brightness(80%);
+}
+
+.oil{
+    width: 250px;
+    height: 250px;
+}
+
+.oil:hover {
+  filter: brightness(80%);
+}
+
+.sauce{
+    width: 250px;
+    height: 250px;
+}
+
+.sauce:hover {
+  filter: brightness(80%);
+}
+
+.wheat{
+    width: 250px;
+    height: 250px;
+}
+
+.wheat:hover {
+  filter: brightness(80%);
+}
+
+.fruit{
+    width: 250px;
+    height: 250px;
+}
+
+.fruit:hover {
+  filter: brightness(80%);
+}
+
+
+
+
+
